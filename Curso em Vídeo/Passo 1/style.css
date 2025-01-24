@@ -1,0 +1,83 @@
+
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+    font-size: 1.5rem;
+    color: rgb(162, 241, 215);
+}
+
+
+main strong {
+    color: rgb(185, 9, 179);
+    
+}
+
+main img {
+    margin-top: 2rem;
+  
+}
+
+main a {
+    text-decoration: none;
+    color: aqua;
+    
+}
+
+main a:visited {
+    color: aqua;
+}
+
+main a:hover{
+    color: lawngreen;
+}
+
+main p mark, a mark {
+    background-color: silver;
+    color:#000
+
+}
+
+
+ main .bora {
+    font-size: 2.5rem;
+ }
+
+
+main abbr {
+    text-decoration: none;
+    
+}
+
+footer {
+    margin-top: 2rem;
+    
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+footer a:hover {
+    color: aqua;
+}
+
+main ol {
+    color: gray;
+    list-style-type: upper-roman;
+}
+
+main ul {
+    color: gray;
+    list-style-type:square;
+}
+
+
+
+
+

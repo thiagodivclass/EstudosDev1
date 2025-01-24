@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+    font-family: 'blinkford';
+    src: url('Blinkford.otf') format('opentype');
+}
+
+body {
+        font-size: 1.3em;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, green, aqua, violet);
+   
+}
+
+
+main {
+    width: 25em;
+    height: 35em;
+    margin: auto;
+    padding: 0.2em;
+    border: 0.03em solid;
+    border-radius: 0.2em;
+    box-shadow: 0.4em 0.09em 0.5em rgba(24, 24, 24, 0.623);
+    background-color: rgba(105, 105, 105, 0.322);
+    
+}
+
+
+main p {
+    font-size: 0.8em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+main h4 {
+    text-align: center;
+    font-family: 'Blinkford';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Blinkford';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 0.02em 0.03em 0.08em rgb(75, 74, 74);
+}
+
+
+
+div{
+    width: 6em;
+}
+
+div:hover {
+    color: blueviolet;
+}
+
+div:hover > .none {
+
+    color: azure;
+    display: block;
+
+}
+
+div > .none {
+    font-size: 3em;
+    display: none;
+
+}
+
+/* 
+
+otf = opentype
+ttf = truetype
+svg
+truetype-aat = Apple Advanced Typography
+
+
+*/
