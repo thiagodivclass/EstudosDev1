@@ -165,9 +165,17 @@ main .movie {
 
 main img {
 
+    width: 100%;
+    
+}
+
+
+
+main img.pequena{
     display: block;
-    margin-right: auto;
+    max-width: 350px;
     margin-left: auto;
+    margin-right: auto;
 }
 
 
