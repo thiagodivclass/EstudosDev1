@@ -207,21 +207,20 @@ text-indent: 2em;
 
 }
 
-ul li {
- list-style: none;
+
+ul {
+    columns: 2;
  
 }
 
-ul li::before {
 
-    content: "✔";    
-   
+ul li {
+ list-style-type: '\2714\ ' ;
+
 }
 
-.lista a {
-    color: black;
-    text-decoration: underline;
-}
+
+
 
 
 article p {
@@ -231,21 +230,7 @@ font-size: 0.9em;
 }
 
 
-#container-a {
-width: 16em;    
-display: inline-block;
-text-align: left;
 
-
-
-}
-
-#container-b {
-    
-    text-align: left;
-    display: inline-block;
-
-}
 
 
 .conclus{
