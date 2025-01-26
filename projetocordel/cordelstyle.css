@@ -113,7 +113,6 @@ section#imagem2 {
 
 section#imagem1 > p {
     display: inline-block;
-    padding: 5px;
     background-color: rgba(0, 0, 0, 0.541);
     display: inline-block;
     padding-left: 0.3em ;
